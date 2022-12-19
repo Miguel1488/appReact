@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerGeneral {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-box {
+  box-shadow: 2px 2px 80px rgba(0, 0, 0, .3);
+  padding: 20px;
+  background-color: rgb(254, 254, 254);
+  border-radius: 10px;
+  gap: 2rem;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.text {
+
+  margin-top: 8px;
+
+}
+
+.phrase {
+  display: flex;
+}
+
+.fa-solid {
+  font-size: 4.5rem;
+  margin-right: 20px;
+}
+
+.author {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.button {
+  display: flex;
+  justify-content: right;
+}
