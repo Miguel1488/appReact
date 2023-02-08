@@ -58,12 +58,16 @@
 }
 
 
-@media screen  (max-width: 280px){
-  .user-box {width:100%;
+@media screen and (max-width: 1920px) {
+  .user-box {
+    width: 90%;
   }
 }
-  
-@media screen  (max-width: 180px){
-  .user-box {width:80%;
+
+;
+
+@media screen (max-width: 180px) {
+  .user-box {
+    width: 90%;
   }
 }
