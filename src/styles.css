@@ -25,7 +25,6 @@
   gap: 2rem;
   margin: 0 auto;
   width: 800px;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,7 +43,7 @@
 }
 
 .fa-solid {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   margin-right: 20px;
 }
 
@@ -56,4 +55,15 @@
 .button {
   display: flex;
   justify-content: right;
+}
+
+
+@media screen  (max-width: 280px){
+  .user-box {width:100%;
+  }
+}
+  
+@media screen  (max-width: 180px){
+  .user-box {width:80%;
+  }
 }
