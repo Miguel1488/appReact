@@ -55,6 +55,7 @@
 .button {
   display: flex;
   justify-content: right;
+  cursor: pointer;
 }
 
 
